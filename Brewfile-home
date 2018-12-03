@@ -3,7 +3,6 @@
 
 # Taps
 
-tap 'homebrew/dupes'
 tap 'caskroom/cask'
 tap 'caskroom/fonts'
 tap 'caskroom/versions'
