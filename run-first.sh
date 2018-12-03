@@ -35,7 +35,7 @@ open -a Dropbox
 
 # Installer les nouvelles applications du bundle Brewfile
 # et mettre à jour celles déjà présentes
-brew bundle
+brew bundle --file=Brewfile-home
 
 # echo "Installation des outils de développement Ruby"
 # Mise à jour de RubyGems
