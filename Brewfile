@@ -17,14 +17,14 @@ cask_args appdir: '/Applications'
 brew 'mas'
 
 # Réseau
-brew 'curl'
-brew 'dnsmasq'
-brew 'openssh'
-brew 'openssl'
-brew 'rsync'
-brew 'storm'
-brew 'wget'
-cask 'controlplane'
+# brew 'curl'
+# brew 'dnsmasq'
+# brew 'openssh'
+# brew 'openssl'
+# brew 'rsync'
+# brew 'storm'
+# brew 'wget'
+# cask 'controlplane'
 cask 'tigervpn'
 cask 'transmission'
 mas 'ForkLift', id: 412448059
@@ -38,12 +38,12 @@ brew 'zsh-syntax-highlighting'
 cask 'iterm2'
 
 # Améliorations d'interface et usage
-cask 'bartender'
-cask 'coconutbattery'
+# cask 'bartender'
+# cask 'coconutbattery'
 cask 'rcdefaultapp'
 cask 'rightzoom'
 mas 'Amphetamine', id: 937984704
-mas 'AutoMute', id: 1118136179
+# mas 'AutoMute', id: 1118136179
 mas 'BetterSnapTool', id: 417375580
 
 # Utilitaires divers
@@ -51,11 +51,11 @@ cask 'appdelete'
 cask 'appshelf'
 cask 'disk-inventory-x'
 cask 'macid'
-cask 'muzzle'
+# cask 'muzzle'
 cask 'qlmarkdown'
 cask 'quicklook-csv'
 cask 'quicklook-json'
-cask 'rocket'
+# cask 'rocket'
 cask 'yemuzip'
 mas '1Password', id: 443987910
 mas 'Renamer', id: 402286241
@@ -73,22 +73,22 @@ cask 'google-chrome'
 
 # Développement
 brew 'git'
-brew 'mariadb'
+# brew 'mariadb'
 brew 'node'
-brew 'pkg-config'
-brew 'ruby'
+# brew 'pkg-config'
+# brew 'ruby'
 # https://github.com/tonsky/FiraCode/wiki#installing-font
 cask 'font-fira-code'
 # https://github.com/ryanoasis/nerd-fonts#option-4-homebrew-fonts
 cask 'font-hack-nerd-font'
-cask 'ghostlab'
-cask 'github-desktop'
-cask 'java6'
-cask 'meld'
-cask 'reflector'
-cask 'sequel-pro'
-cask 'virtualbox'
-cask 'virtualbox-extension-pack'
+# cask 'ghostlab'
+# cask 'github-desktop'
+# cask 'java6'
+# cask 'meld'
+# cask 'reflector'
+# cask 'sequel-pro'
+# cask 'virtualbox'
+# cask 'virtualbox-extension-pack'
 cask 'visual-studio-code'
 #mas 'Xcode', id: 497799835
 
@@ -138,9 +138,9 @@ mas 'Slack', id: 803453959
 mas 'Tweetbot', id: 557168941
 
 # Bureautique
-# cask 'libreoffice'
+cask 'libreoffice'
 cask 'macdown'
 # cask 'typora'
-cask 'vienna'
-mas 'Evernote', id: 406056744
+# cask 'vienna'
+# mas 'Evernote', id: 406056744
 mas 'Reeder 3', id: 880001334

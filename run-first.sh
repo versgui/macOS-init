@@ -37,25 +37,25 @@ open -a Dropbox
 # et mettre à jour celles déjà présentes
 brew bundle
 
-echo "Installation des outils de développement Ruby"
+# echo "Installation des outils de développement Ruby"
 # Mise à jour de RubyGems
-sudo gem update --system --silent
+# sudo gem update --system --silent
 # Installation de Bundler
-sudo gem install bundler
+# sudo gem install bundler
 
-echo "Installation des outils de développement Node"
+# echo "Installation des outils de développement Node"
 # Installation de composants Node
-npm install -g npm-check-updates
+# npm install -g npm-check-updates
 # npm install -g grunt
 # npm install -g grunt-cli
 
-echo "Installation d'applications en Node"
+# echo "Installation d'applications en Node"
 # De meilleures aides en ligne : http://tldr.sh/
-npm install -g tldr
+# npm install -g tldr
 
-echo "Finalisation de l'installation de Apache et PHP"
-brew services start httpd
-brew services start php
+# echo "Finalisation de l'installation de Apache et PHP"
+# brew services start httpd
+# brew services start php
 
 ## ************************* CONFIGURATION ********************************
 echo "Configuration de quelques paramètres par défaut"
