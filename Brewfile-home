@@ -115,6 +115,7 @@ cask 'vlc'
 # mas 'GIF Brewery 3', id: 1081413713
 mas 'iFlicks 2', id: 731062389
 mas 'Screeny', id: 440991524
+mas 'Sequence', id: 572525913
 
 # Musique
 cask 'spotify'
