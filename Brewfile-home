@@ -81,7 +81,7 @@ cask 'font-fira-code'
 # https://github.com/ryanoasis/nerd-fonts#option-4-homebrew-fonts
 cask 'font-hack-nerd-font'
 # cask 'ghostlab'
-# cask 'github-desktop'
+# cask 'github'
 # cask 'java6'
 # cask 'meld'
 # cask 'reflector'
