@@ -20,13 +20,13 @@ brew 'curl'
 brew 'dnsmasq', restart_service: true
 brew 'openssh'
 brew 'openssl'
+brew 'mosh'
 brew 'rsync'
 brew 'storm'
 brew 'wget'
-cask 'controlplane'
-cask 'tigervpn'
 cask 'transmission'
 mas 'ForkLift', id: 412448059
+mas 'IP Scanner', id: 404167149
 
 # Terminal
 brew 'autojump'
@@ -38,41 +38,29 @@ cask 'iterm2'
 
 # Améliorations d'interface et usage
 # cask 'bartender'
-cask 'dozer'
 cask 'coconutbattery'
-cask 'rcdefaultapp'
+cask 'itsycal'
 mas 'Amphetamine', id: 937984704
 mas 'AutoMute', id: 1118136179
-mas 'BetterSnapTool', id: 417375580
+mas 'Magnet', id: 417375580
 
 # Utilitaires divers
 cask 'appcleaner'
-cask 'appshelf'
-cask 'disk-inventory-x'
-cask 'unlox'
-cask 'muzzle'
-cask 'qlmarkdown'
+cask 'daisydisk'
 cask 'quicklook-csv'
 cask 'quicklook-json'
-cask 'yemuzip'
+cask 'keka'
+cask 'authy'
+cask 'flux'
 mas '1Password', id: 443987910
-mas 'Renamer', id: 402286241
-mas 'The Unarchiver', id: 425424353
-
-# Backup et synchro
-brew 'mackup'
-cask 'carbon-copy-cloner'
-cask 'backblaze'
-cask 'google-drive-file-stream'
+mas 'Simple Recorder', id: 989175722
 
 # Web
 cask 'firefox'
 cask 'google-chrome'
-cask 'google-chrome-canary'
 
 # Développement
 brew 'git'
-brew 'mariadb'
 brew 'node'
 brew 'pkg-config'
 brew 'ruby'
@@ -81,14 +69,16 @@ cask 'font-fira-code'
 # https://github.com/ryanoasis/nerd-fonts#option-4-homebrew-fonts
 cask 'font-hack-nerd-font'
 cask 'ghostlab'
-cask 'github'
-cask 'java6'
+cask 'sourcetree'
 cask 'meld'
 cask 'reflector'
 cask 'sequel-pro'
-cask 'virtualbox'
-cask 'virtualbox-extension-pack'
+cask 'tableplus'
+cask 'docker'
 cask 'visual-studio-code'
+cask 'postman'
+cask 'browserstacklocal'
+cask 'integrity'
 #mas 'Xcode', id: 497799835
 
 # Images
@@ -96,45 +86,28 @@ brew 'graphicsmagick'
 brew 'gsl'
 brew 'imagemagick@6'
 cask 'imageoptim'
-mas 'Boxy SVG', id: 611658502
-mas 'Skitch', id: 425955336
-mas 'Sip', id: 507257563
 
 # Vidéos
 brew 'ffmpeg'
-brew 'youtube-dl'
-cask 'catch'
-cask 'handbrake'
 cask 'molotov'
-cask 'subler'
 cask 'subsmarine'
 cask 'vlc'
-# mas 'GIF Brewery 3', id: 1081413713
-mas 'iFlicks 2', id: 731062389
-mas 'Screeny', id: 440991524
 
 # Musique
-cask 'spotify'
-# cask 'xld'
-# mas 'Export for iTunes', id: 880764359
-mas 'I Love Stars', id: 402642760
+cask 'deezer'
 
 # Photo
 cask 'adobe-creative-cloud'
-mas 'gps4cam', id: 704400176
 
 # Divertissement
 cask 'steam'
 
 # Communication
 # cask 'colloquy'
-cask 'rambox'
-# cask 'skype'
+cask 'zoomus'
 mas 'Slack', id: 803453959
-mas 'Tweetbot 3', id: 1384080005
 
 # Bureautique
-# cask 'libreoffice'
-cask 'macdown'
+cask 'libreoffice'
 # cask 'typora'
 mas 'Reeder 3', id: 880001334
