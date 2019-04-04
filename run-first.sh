@@ -29,16 +29,16 @@ echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.zshrc
 brew update
 
 # Installer Dropbox au plus tôt pour lancer la synchro des settings
-brew cask install dropbox
-echo "Ouverture de Dropbox pour commencer la synchronisation"
-open -a Dropbox
+# brew cask install dropbox
+# echo "Ouverture de Dropbox pour commencer la synchronisation"
+# open -a Dropbox
 
 # Installer les nouvelles applications du bundle Brewfile
 # et mettre à jour celles déjà présentes
 brew bundle
 
 # Installer version 6 de screenflow (plutôt que la dernière, dont je n'ai pas la license)
-brew cask install https://raw.githubusercontent.com/colindunn/homebrew-cask/9236cc83c732310b6308971d5d376369f5f78cf8/Casks/screenflow.rb
+# brew cask install https://raw.githubusercontent.com/colindunn/homebrew-cask/9236cc83c732310b6308971d5d376369f5f78cf8/Casks/screenflow.rb
 
 echo "Installation des outils de développement Ruby"
 # Mise à jour de RubyGems
@@ -56,9 +56,9 @@ echo "Installation d'applications en Node"
 # De meilleures aides en ligne : http://tldr.sh/
 npm install -g tldr
 
-echo "Finalisation de l'installation de Apache et PHP"
-brew services start httpd
-brew services start php
+# echo "Finalisation de l'installation de Apache et PHP"
+# brew services start httpd
+# brew services start php
 
 ## ************************* CONFIGURATION ********************************
 echo "Configuration de quelques paramètres par défaut"
@@ -246,4 +246,4 @@ rm -f -r /Library/Caches/Homebrew/*
 
 echo ""
 echo "ET VOILÀ !"
-echo "Après synchronisation des données Dropbox (seuls les dossiers « Mackup » et « Settings » sont nécessaires dans un premier temps), lancer le script post-cloud.sh"
+echo "Après synchronisation des données (seuls les dossiers « Mackup » et « Settings » sont nécessaires dans un premier temps), lancer le script post-cloud.sh"
